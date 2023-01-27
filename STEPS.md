@@ -79,5 +79,8 @@ npm add -D dotenv
 Create '.env' file in the root directory
 
 
+### Mongo user: root , password: 12345
+
+
 
 
