@@ -1,4 +1,5 @@
 ### Preparar o ambiente
+
 '''
 npm init -y
 git init
@@ -14,17 +15,20 @@ with:
 "start:dev": "nodemon --exec npx ts-node src/index.ts"
 
 ### rodar o projeto
+
 '''
 npm run start:dev
 '''
 
 ### GIT
+
 '''
 git add .
 git commit -m "initial commit with initial setup"
 '''
 
 ### instalar e configurar extensões
+
 Install eslint and prettyer
 '''
 npm add -D eslint prettier eslint-config-prettier
@@ -58,29 +62,35 @@ and search for "default formatter" and select "Prettier".
 
 Now press CTRL+SHIFT+P and search "reload window" and reload the VSCODE.
 
-
 ### GIT
+
 ### Utilizar conventional commits
+
 '''
 git add .
 git commit -m "chore: add prettier and eslint setup"
 '''
 
 ### SETUP do express
+
 ### Instalar express e dependências
+
 '''
 npm add express
 npm add -D @types/express @types/node
 '''
+
 ### Adicionar environment
+
 '''
 npm add -D dotenv
 '''
 Create '.env' file in the root directory
 
+### Install MongoDB
+
+'''
+npm add mongodb
+'''
 
 ### Mongo user: root , password: 12345
-
-
-
-
