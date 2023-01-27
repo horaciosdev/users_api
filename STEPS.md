@@ -66,5 +66,18 @@ git add .
 git commit -m "chore: add prettier and eslint setup"
 '''
 
-### Iniciar o projeto
+### SETUP do express
+### Instalar express e dependências
+'''
+npm add express
+npm add -D @types/express @types/node
+'''
+### Adicionar environment
+'''
+npm add -D dotenv
+'''
+Create '.env' file in the root directory
+
+
+
 
