@@ -93,9 +93,16 @@ Create '.env' file in the root directory
 npm add mongodb
 '''
 
+### Install Validator e seus types para algumas validações
+'''
+npm add validator
+npm add -D @types/validator
+'''
+
+
+
 ### Mongo user: root , password: 12345
 
+### Parei em 1:10:10
 
-
-### Parei em 44:20
-### https://youtu.be/gU3kp7Aw0JI?t=2660
+### https://youtu.be/gU3kp7Aw0JI?t=4210
