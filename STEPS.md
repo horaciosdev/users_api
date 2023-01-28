@@ -94,3 +94,8 @@ npm add mongodb
 '''
 
 ### Mongo user: root , password: 12345
+
+
+
+### Parei em 44:20
+### https://youtu.be/gU3kp7Aw0JI?t=2660
