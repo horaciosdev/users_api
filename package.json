@@ -2,8 +2,11 @@
   "name": "crud_node_mongo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
     "start:dev": "nodemon --exec npx ts-node src/index.ts"
   },
   "keywords": [],

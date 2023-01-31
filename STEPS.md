@@ -1,5 +1,4 @@
 ### Preparar o ambiente
-
 '''
 npm init -y
 git init
@@ -94,14 +93,27 @@ npm add mongodb
 '''
 
 ### Install Validator e seus types para algumas validações
+
 '''
 npm add validator
 npm add -D @types/validator
 '''
 
+# CODING CODING CODING CODING CODING CODING CODING CODING
+
+# BUILD AND DEPLOY!!!
+
+O deploy feito através do https://railway.app/
+
+
+
+
+
+
 
 
 ### Mongo user: root , password: 12345
 
-### Parei em 1:10:10
-### 
+### Parei em 2:03:03
+
+### https://youtu.be/gU3kp7Aw0JI?t=7383
