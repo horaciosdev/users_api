@@ -90,7 +90,7 @@ npx eslint --init
 <ul>
   <li>ESLint</li>
   <li>Prettier</li>
-<ul>
+</ul>
 
 <p>No VSCODE pressionar 'CTRL+,' buscar por "format on save" and marcar "Format a file on save."</p>
 <p>Procurar também por "default formatter" and selecionar "Prettier".</p>
