@@ -3,7 +3,7 @@
 <p>O projeto contém um CRUD (Create, Read, Update, Delete) de usuários utilizando os princípios de Clean Code, SOLID e DRY</p>
 <p>Link para o vídeo com o curso: https://youtu.be/gU3kp7Aw0JI</p>
 
-<h1>Breve Documentação</h1>
+<h1>Breve Documentação:</h1>
 <p>Segue uma documentação das etapas do desenvolvimento da API que não estão relacionadas diretamente com a codificação mas que são necessárias para a criação do ambiente e referência para criação de outros possíveis projetos.</p>
 
 <h2>Preparar o ambiente:</h2>
@@ -15,7 +15,7 @@ npm add -D nodemon
 npx ntsc --init
 ```
 
-<h2>Inicializar o git</h2>
+<h2>Inicializar o git:</h2>
 
 ```
 git init
@@ -40,27 +40,27 @@ dist
 },
 ```
 
-<h2>Em 'tsconfig.json' descomente 'outDir' e defina seu valor como 'dist'</h2>
+<h2>Em 'tsconfig.json' descomente 'outDir' e defina seu valor como 'dist':</h2>
 
 ```
 "outDir": "dist"
 ```
 
-<h2>Adicionar o Express e dependências</h2>
+<h2>Adicionar o Express e dependências:</h2>
 
 ```
 npm add express
 npm add -D @types/express @types/node
 ```
 
-<h2>Adicionar o Validator e seus types para algumas validações</h2>
+<h2>Adicionar o Validator e seus types para algumas validações:</h2>
 
 ```
 npm add validator
 npm add -D @types/validator
 ```
 
-<h2>Instalar e configurar eslint and prettyer</h2>
+<h2>Instalar e configurar eslint and prettyer:</h2>
 
 ```
 npm add -D eslint prettier eslint-config-prettier
@@ -76,7 +76,7 @@ npx eslint --init
 √ Which package manager do you want to use? 'npm'
 ```
 
-<h2>No arquivo '.eslintrc.json' adicionar...</h2>
+<h2>No arquivo '.eslintrc.json' adicionar...:</h2>
 
 ```
 "parserOptions": {
@@ -96,13 +96,13 @@ npx eslint --init
 <p>Procurar também por "default formatter" and selecionar "Prettier".</p>
 <p>Reiniciar VSCODE com 'CTRL+SHIFT+P' buscando por "reload window" e selecionando essa opção.</p>
 
-<h2>Adicionar MongoDB</h2>
+<h2>Adicionar MongoDB:</h2>
 
 ```
 npm add mongodb
 ```
 
-<h2>Criar Banco no MongoDB</h2>
+<h2>Criar Banco no MongoDB:</h2>
 <ol>
 <li>Acesse https://www.mongodb.com/</li>
 <li>Faça login ou crie uma conta.</li>
@@ -118,13 +118,13 @@ npm add mongodb
 <li>O processo de criação do Banco de dados será iniciado e concluído em breve.</li>
 </ol>
 
-<h2>Adicionar dotenv</h2>
+<h2>Adicionar dotenv:</h2>
 
 ```
 npm add -D dotenv
 ```
 
-<h2>Criar o arquivo '.env' com as variáveis de ambiente na raíz do projeto.</h2>
+<h2>Criar o arquivo '.env' com as variáveis de ambiente na raíz do projeto:</h2>
 
 ```
 PORT = 'insira aqui a porta utilizada ex.: PORT = 8000'
@@ -134,19 +134,19 @@ MONGODB_USERNAME = 'o usuário do seu banco de dados: ex.:  MONGODB_USERNAME = r
 MONGODB_PASSWORD = 'a senha do seu banco de dados ex.: MONGODB_PASSWORD = 12345'
 ```
 
-<h2>Para executar o projeto com o Nodemon durante o desenvolvimento.</h2>
+<h2>Para executar o projeto com o Nodemon durante o desenvolvimento:</h2>
 
 ```
 npm run start:dev
 ```
 
-<h2>Para executar a build.</h2>
+<h2>Para executar a build:</h2>
 
 ```
 npm run build
 ```
 
-<h2>Para fazer o deploy no https://railway.app/</h2>
+<h2>Para fazer o deploy no https://railway.app/ :</h2>
 
 <ol>
 <li>Acesse: https://railway.app/</li>
